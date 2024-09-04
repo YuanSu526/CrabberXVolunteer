@@ -1,0 +1,71 @@
+/* CalendarView.css */
+
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+  }
+  
+  .calendar-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .calendar {
+    flex: 3;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 2% 1% 2% 2%;
+  }
+  
+  .side-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 2% 2% 2% 1%;
+  }
+  
+  .side-container p {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .side-container .attribute-name {
+    font-weight: bold;
+    margin-top: 2%;
+  }
+
+  .side-container .value {
+    width: 100%;
+    margin: 10%;
+    align-items: center;
+  }
+  
+  .side-container .dropdown {
+    width: 100%;
+    margin: 10%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .action-button {
+    padding: 10px 20px;
+    margin: 2%;
+    border: none;
+    border-radius: 5px;
+    background-color: #2c3e50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .action-button:hover {
+    background-color: #395979;
+  }

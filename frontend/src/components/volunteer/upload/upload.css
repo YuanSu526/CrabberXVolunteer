@@ -1,0 +1,98 @@
+/* upload.css */
+
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+  }
+  
+  .information {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #e7f0f7;
+    border-radius: 10px;
+  }
+
+  .upload-content {
+    display: flex;
+    width: 100%;
+    margin: 20px 10px 20px 10px;
+  }
+  
+  .info-card-upload {
+    background-color: #d3e4f1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .info-card-upload h3 {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .info-card-upload p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .info-card-upload p span.attribute-name {
+    font-weight: bold;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .info-card-upload p input.text-input {
+    flex: 3;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  .info-card-upload p select.dropdown {
+    flex: 3;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2c3e50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #395979;
+  }
+
+  .notification {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    opacity: 0.9;
+    transition: opacity 0.5s ease;
+}

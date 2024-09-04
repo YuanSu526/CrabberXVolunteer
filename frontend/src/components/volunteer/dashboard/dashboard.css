@@ -1,0 +1,54 @@
+/* Dashboard.css */
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .information-section {
+    width: 50%;
+    padding: 20px;
+    background-color: #e7f0f7;
+    border-radius: 10px;
+  }
+  
+  .info-card {
+    background-color: #d3e4f1;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+  }
+  
+  .info-card h3 {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .info-card p {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .info-card p span.attribute-name {
+    font-weight: bold;
+    flex: 1;
+    text-align: right;
+    margin-right: 5%;
+  }
+  
+  .info-card p span.value {
+    flex: 1;
+    text-align: left;
+  }
+
+  .empty-space {
+    margin: 3%;
+  }
